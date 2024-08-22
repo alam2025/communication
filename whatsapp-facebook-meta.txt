@@ -1,0 +1,28 @@
+WhatsApp Documentation
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+create app process
+
+1.  create a Facebook app from developer.
+2. Use case will be others 
+3. Select Business.
+4. Choose app with setup WhatsApp
+5. Generate a permanent access token
+
+.............................................................
+
+Send text message
+
+message have template system and custom message.
+
+Note : Test user can send custom message to end user after reply end user.
+
+
+.................................................................
+
+Configuration Webhook:
+
+Callback url : http://localhost:5000/whatsapp/messages
+token: whatsapp_master_token
+
+
